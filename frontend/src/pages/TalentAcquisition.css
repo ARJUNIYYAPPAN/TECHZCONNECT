@@ -1,0 +1,65 @@
+.talent-acquisition-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .talent-acquisition-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .talent-acquisition-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .talent-acquisition-content .highlight {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .talent-acquisition-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .talent-acquisition-image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .talent-acquisition-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .talent-acquisition-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .talent-acquisition-image-wrapper {
+      margin-top: 1rem;
+    }
+  
+    .talent-acquisition-content h1 {
+      font-size: 2rem;
+    }
+  }
+  

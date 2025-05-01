@@ -1,0 +1,13 @@
+### GET Request
+GET http://localhost:5000/api/jobs
+
+### POST Request
+POST http://localhost:5000/api/jobs
+Content-Type: application/json
+
+{
+    "title": "DevOps Engineer",
+    "description": "AWS, Docker, and Kubernetes experience required.",
+    "location": "San Francisco",
+    "salary": 120000
+}

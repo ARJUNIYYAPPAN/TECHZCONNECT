@@ -1,0 +1,48 @@
+/* ✅ Carousel Styles */
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 50px 20px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 30px;
+    animation: slide 15s linear infinite; /* Increased speed by reducing duration and added linear timing */
+}
+
+.carousel-slide {
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.carousel-slide p {
+    font-style: italic;
+    color: #555;
+}
+
+.carousel-slide h4 {
+    margin-top: 10px;
+    color: #333;
+}
+.carousel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); } /* Start with the first element visible */
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); } /* Loop back to the first element */
+}

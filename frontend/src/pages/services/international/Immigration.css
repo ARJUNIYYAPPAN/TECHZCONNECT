@@ -1,0 +1,160 @@
+/* .immigration-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  .hero-section p {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .assessment-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .assessment-section ul li {
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  
+  .process-section .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .step {
+    background: #e6f7ff;
+    padding: 12px;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+  }
+  
+  .testimonials {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .cta-section {
+    background: linear-gradient(to bottom, #1c1e26, #222532);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+
+  .cta-section h3 {
+    color: white
+  }
+  
+  .cta-button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    background: #f7c948;
+    color: #222;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background: #f4b400;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .process-section .steps {
+      grid-template-columns: 1fr;
+    }
+  }
+   */
+
+
+   .immigration-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background: linear-gradient(to right, #1c1e26, #343a40);
+    color: #f7c948;
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-section p {
+    color: #eee;
+    margin-top: 10px;
+  }
+  
+  .assessment-section, .process-section, .testimonials-section, .cta-section {
+    margin-top: 40px;
+  }
+  
+  .assessment-list, .process-section ol {
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  .testimonials-section blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #f7c948;
+    margin: 20px 0;
+    padding: 15px 20px;
+    font-style: italic;
+  }
+  
+  .cta-section {
+    text-align: center;
+    background: #f7c948;
+    color: #222;
+    padding: 30px 20px;
+    border-radius: 8px;
+  }
+  
+  .cta-btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background: #444;
+  }
+
+  
+
+  

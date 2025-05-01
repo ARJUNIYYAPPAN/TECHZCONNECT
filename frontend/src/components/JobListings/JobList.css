@@ -1,0 +1,8 @@
+/* src/components/JobListings/JobList.css */
+
+.job-list {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}

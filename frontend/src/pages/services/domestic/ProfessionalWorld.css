@@ -1,0 +1,33 @@
+.professional-world {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.professional-world .pwhead {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.professional-world p {
+    margin-bottom: 15px;
+}
+
+.professional-world p strong {
+    color: #333;
+}
+
+.professional-world h2.pwhead {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.professional-world h1.pwhead {
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+}

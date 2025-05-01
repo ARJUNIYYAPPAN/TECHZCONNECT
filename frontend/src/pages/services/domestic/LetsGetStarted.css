@@ -1,0 +1,73 @@
+.lets-get-started-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px 20px;
+    color: #333;
+}
+
+.lets-get-started-container h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lets-get-started-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.benefits-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.benefits-section h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.benefits-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.benefits-section ul li {
+    margin-bottom: 10px;
+}
+
+.benefits-section ul li::marker {
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .lets-get-started-container {
+        padding: 15px;
+    }
+
+    .lets-get-started-container h1 {
+        font-size: 2rem;
+    }
+
+    .benefits-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .benefits-section ul {
+        font-size: 0.9rem;
+    }
+}

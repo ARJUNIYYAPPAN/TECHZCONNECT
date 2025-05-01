@@ -1,0 +1,59 @@
+.verification-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.verification-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.verification-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #7f8c8d;
+}
+
+.verification-intro {
+    margin: 20px 0;
+}
+
+.verification-section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.verification-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.verification-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.verification-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.verification-list-item {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+

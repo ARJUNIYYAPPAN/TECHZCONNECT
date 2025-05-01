@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+.app-wrapper > * {
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* App.css or global styles */
+@media screen and (max-width: 768px) {
+  .container,
+  .job-details-container,
+  .apply-job-container,
+  .blog-details-container,
+  .contact-form-container,
+  .blog-container,
+  .about-container {
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blog-card {
+    width: 100%;
+  }
+}
