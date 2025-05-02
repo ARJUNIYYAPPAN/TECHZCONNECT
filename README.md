@@ -7,5 +7,3 @@ This project is a full-stack HR Consultancy platform developed using:
 
 ---
 
-## 🔧 Project Structure
-
