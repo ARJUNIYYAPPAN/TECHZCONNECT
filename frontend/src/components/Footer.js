@@ -57,7 +57,7 @@ const Footer = () => {
 
       {/* Bottom Section - Copyright */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} TechzAspire HR Consultancy. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Techzconnect HR Consultancy. All Rights Reserved.</p>
       </div>
 
     </footer>

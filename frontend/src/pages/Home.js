@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import HeroSection from "../components/HeroSection";
+// import HeroSlider from "../components/HeroSlider";
 import { fetchLatestNews } from "../api/newsApi";
 import {motion} from "framer-motion";
 import "../styles/Home.css";
@@ -34,7 +35,9 @@ function Home() {
 
   return (
     <div className="home-page">
+      
       <HeroSection />
+
       <section className="services">
         <h2>Our HR Solutions</h2>
         <div className="service-cards">
