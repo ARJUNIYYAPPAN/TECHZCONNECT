@@ -7,7 +7,8 @@ import "../styles/Home.css";
 import NewsFilter from "../components/NewsFilter";
 import GoToTop from "../components/GoToTop";
 // import Carousel from "../components/Carousel";  
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+import HRSolutions from "../components/HRSolutions";
 
 
 function Home() {
@@ -37,8 +38,8 @@ function Home() {
     <div className="home-page">
       
       <HeroSection />
-
-      <section className="services">
+      <HRSolutions/>
+      {/* <section className="services">
         <h2>Our HR Solutions</h2>
         <div className="service-cards">
         <motion.div 
@@ -48,7 +49,9 @@ function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <NavLink to="/talent-acquisition" className="home-nav-link">Recruitment & Talent Acquisition</NavLink>
+            <NavLink to="/talent-acquisition" className="home-nav-link">
+              Recruitment & Talent Acquisition
+            </NavLink>
           </motion.div>
           <motion.div 
             className="card" 
@@ -69,7 +72,9 @@ function Home() {
             <NavLink to="/global-it-recruitment" className="home-nav-link">Global IT Recruitment</NavLink>
           </motion.div>
         </div>
-      </section>
+      </section> */}
+
+
 
       <section className="testimonials">
   <h2>What Our Clients Say</h2>

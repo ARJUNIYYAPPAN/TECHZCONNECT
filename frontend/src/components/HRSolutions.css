@@ -1,0 +1,71 @@
+.hr-solutions-wrapper {
+    background-color: #fff;
+    padding: 80px 20px;
+  }
+  
+  .solutions-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .solutions-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .solution-card {
+    background: #f9f7f6;
+    border-radius: 20px;
+    padding: 30px 25px;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .solution-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .solution-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+  }
+  
+  .icon {
+    font-size: 36px;
+    justify-content: center;
+  }
+  
+  .solution-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .solution-card p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  .contact-link {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: auto;
+    text-transform: uppercase;
+    color: #800000;
+    border-bottom: 1px solid #800000;
+    display: inline-block;
+    width: fit-content;
+  }
+  
