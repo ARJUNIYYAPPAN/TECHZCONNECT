@@ -1,4 +1,4 @@
-.hr-solutions-wrapper {
+/* .hr-solutions-wrapper {
     background-color: #fff;
     padding: 80px 20px;
   }
@@ -67,5 +67,72 @@
     border-bottom: 1px solid #800000;
     display: inline-block;
     width: fit-content;
+  } */
+
+
+
+
+  .solutions-section {
+    background-color: #f8f9fa;
+    padding: 80px 20px;
+    text-align: center;
   }
+  
+  .solutions-title {
+    font-size: 2.5rem;
+    color: #007BFF;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .solutions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .solution-card {
+    background: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .solution-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .solution-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .solution-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .solution-desc {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .solution-cta {
+    font-size: 0.9rem;
+    color: #007BFF;
+    font-weight: 600;
+  }
+  
   

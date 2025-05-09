@@ -1,0 +1,43 @@
+.quick-stats-section {
+    background-color: #f9f9f9;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .quick-stats-title {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #007BFF;
+    
+  }
+  
+  .stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .stat-card {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    width: 200px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .stat-value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    color: #555;
+  }
+  

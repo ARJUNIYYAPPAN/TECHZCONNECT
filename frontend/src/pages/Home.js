@@ -9,6 +9,11 @@ import GoToTop from "../components/GoToTop";
 // import Carousel from "../components/Carousel";  
 // import { NavLink } from "react-router-dom";
 import HRSolutions from "../components/HRSolutions";
+import WhyChooseUs from "../components/WhyChooseUs";
+import ClientTestimonial from "../components/ClientTestimonial"; 
+import IndustriesWeServe from "../components/IndustriesWeServe";
+import ClientsAndPartners from "../components/ClientsAndPartners";
+import QuickStats from "../components/QuickStats";
 
 
 function Home() {
@@ -39,44 +44,8 @@ function Home() {
       
       <HeroSection />
       <HRSolutions/>
-      {/* <section className="services">
-        <h2>Our HR Solutions</h2>
-        <div className="service-cards">
-        <motion.div 
-            className="card" 
-            whileHover={{ scale: 1.05 }}
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <NavLink to="/talent-acquisition" className="home-nav-link">
-              Recruitment & Talent Acquisition
-            </NavLink>
-          </motion.div>
-          <motion.div 
-            className="card" 
-            whileHover={{ scale: 1.05 }}
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-          >
-            <NavLink to="/employee-trainee" className="home-nav-link">Employee Training & Development</NavLink>
-          </motion.div>
-          <motion.div 
-            className="card" 
-            whileHover={{ scale: 1.05 }}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-          >
-            <NavLink to="/global-it-recruitment" className="home-nav-link">Global IT Recruitment</NavLink>
-          </motion.div>
-        </div>
-      </section> */}
-
-
-
-      <section className="testimonials">
+      
+      {/* <section className="testimonials">
   <h2>What Our Clients Say</h2>
   <motion.div 
   className="testimonial-cards"
@@ -98,9 +67,14 @@ function Home() {
       <h4>- Prawin, CEO of XYZ Corp</h4>
     </div>
   </motion.div>
-</section>
-    
+</section> */}
 
+      <ClientTestimonial/>
+    
+      <WhyChooseUs/>
+      <IndustriesWeServe/>
+      <ClientsAndPartners/>
+      <QuickStats/>
 <section className="latest-news">
         <h2>Latest News & Updates</h2>
         <div className="news-cards">

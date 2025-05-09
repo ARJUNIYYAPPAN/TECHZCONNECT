@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
 import { NavLink } from "react-router-dom";
+import MainLogo from "./MainLogo";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h2 className="navbar-logo">Techzconnect</h2>
+        <div className="navbar-logo"><MainLogo/></div>
 
         <div className="menu-icon" onClick={toggleMenu}>
           <span className="hamburger">{menuOpen ? "✕" : "☰"}</span>
