@@ -9,7 +9,10 @@ import GoToTop from "../components/GoToTop";
 // import Carousel from "../components/Carousel";  
 // import { NavLink } from "react-router-dom";
 import HRSolutions from "../components/HRSolutions";
+import OurServices from "../components/OurServices";
+import FeaturedJobs from "../components/FeaturedJob";
 import WhyChooseUs from "../components/WhyChooseUs";
+import RecruitmentProcess from "../components/RecruitmentProcess";
 import ClientTestimonial from "../components/ClientTestimonial"; 
 import IndustriesWeServe from "../components/IndustriesWeServe";
 import ClientsAndPartners from "../components/ClientsAndPartners";
@@ -44,34 +47,11 @@ function Home() {
       
       <HeroSection />
       <HRSolutions/>
-      
-      {/* <section className="testimonials">
-  <h2>What Our Clients Say</h2>
-  <motion.div 
-  className="testimonial-cards"
-  initial={{ scale: 0.8, opacity: 0 }}
-  whileInView={{ scale: 1, opacity: 1 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.5, delay: 0.3 }}
-  >
-    <div className="testimonial-card">
-      <p>"The AI-powered recruitment solution is simply amazing!"</p>
-      <h4>- Michael, HR Manager</h4>
-    </div>
-    <div className="testimonial-card">
-      <p>"Their career coaching sessions boosted my confidence for interviews."</p>
-      <h4>- Arjun, Software Engineer</h4>
-    </div>
-    <div className="testimonial-card">
-      <p>"TechzAspire helped us find the perfect candidates in no time!"</p>
-      <h4>- Prawin, CEO of XYZ Corp</h4>
-    </div>
-  </motion.div>
-</section> */}
-
-      <ClientTestimonial/>
-    
+      <OurServices/>
       <WhyChooseUs/>
+      <FeaturedJobs/>
+      <RecruitmentProcess/>
+      <ClientTestimonial/>
       <IndustriesWeServe/>
       <ClientsAndPartners/>
       <QuickStats/>

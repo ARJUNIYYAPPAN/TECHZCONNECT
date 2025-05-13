@@ -24,7 +24,7 @@
 .footer-brand h2 {
   font-size: 22px;
   font-weight: bold;
-  color: #f7c948;
+  color: #007bff;
 }
 
 .footer-brand p {
@@ -38,7 +38,7 @@
 .footer-social h3,
 .footer-map {
   font-size: 18px;
-  color: #f7c948;
+  color: #007bff;
   margin-bottom: 10px;
 }
 
@@ -53,13 +53,13 @@
 
 .footer-links ul li a {
   text-decoration: none;
-  color: #bbb;
+  color: white;
   font-size: 14px;
   transition: color 0.3s ease;
 }
 
 .footer-links ul li a:hover {
-  color: #f7c948;
+  color: #007bff;
 }
 
 /* Footer Social Media */
@@ -69,13 +69,13 @@
 }
 
 .social-icons a {
-  color: #bbb;
+  color: white;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #f7c948;
+  color: #007bff;
 }
 
 /* Footer Bottom */
@@ -88,7 +88,7 @@
 
 .footer-bottom p {
   font-size: 12px;
-  color: #bbb;
+  color: white;
 }
 
 /* Responsive Design */
@@ -96,6 +96,7 @@
   .footer-container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
 
   .footer-links,

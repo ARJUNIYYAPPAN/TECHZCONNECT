@@ -11,7 +11,7 @@ const Footer = () => {
         
         {/* Left Section - Brand Info */}
         <div className="footer-brand">
-          <h2>Techzconnect HR Consultancy</h2>
+          <h2>Techzconnect HR Consulting</h2>
           <p>We help businesses find the right talent and professionals build their careers.</p>
           <Form/>
         </div>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-map">
-          <h3 style={{color: "#f7c948"}}>Visit Us</h3>
+          <h3 style={{color: "#007bff"}}>Visit Us</h3>
    <iframe
     title="TechzAspire Location"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.196321286258!2d80.24060447484115!3d12.959285987354951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9a4af906f3%3A0x9c6b4f7970bd8200!2sTechzit%20Solutions!5e0!3m2!1sen!2sin!4v1744197579045!5m2!1sen!2sin"
@@ -57,7 +57,7 @@ const Footer = () => {
 
       {/* Bottom Section - Copyright */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Techzconnect HR Consultancy. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Techzconnect HR Consulting. All Rights Reserved.</p>
       </div>
 
     </footer>

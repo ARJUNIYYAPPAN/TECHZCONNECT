@@ -21,7 +21,7 @@ const dummyBlogs = [
         date: "2025-04-05",
         description: "From remote-first roles to skills-based hiring – discover what’s shaping talent acquisition.",
         content: `2025 is bringing big changes in hiring. Remote-first culture, diversity-driven hiring, AI-powered sourcing, and skills-based assessments are gaining momentum. Employers are also investing in virtual onboarding and training.`,
-        imageUrl: "https://plus.unsplash.com/premium_photo-1678917827802-721b5f5b4bf0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGlyaW5nfGVufDB8fDB8fHww"
+        imageUrl: "https://img.freepik.com/free-photo/businessmen-shaking-hands-while-another-is-writing_1262-721.jpg?uid=R199951794&ga=GA1.1.1205905824.1747115791&semt=ais_hybrid&w=740"
     },
 ];
 

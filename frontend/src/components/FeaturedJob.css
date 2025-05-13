@@ -1,0 +1,70 @@
+.featured-jobs-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.featured-jobs-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 40px;
+}
+
+.jobs-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 280px;
+  text-align: left;
+}
+
+.job-card h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.apply-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 18px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+
+.view-all-btn {
+  margin-top: 30px;
+}
+
+.view-all-btn a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.view-all-btn a:hover {
+  border-color: #007bff;
+}
