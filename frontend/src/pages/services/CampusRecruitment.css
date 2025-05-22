@@ -1,0 +1,155 @@
+.campus-recruitment-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 72, 88, 0.12);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #22304a;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.campus-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1a365d;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 2px 8px #dbeafe;
+    animation: slideDown 0.7s;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.campus-subtitle {
+    font-size: 1.5rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.campus-section-title {
+    font-size: 1.2rem;
+    color: #0e2954;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.campus-section-title::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+.campus-description,
+.campus-highlight-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #374151;
+}
+
+.campus-list {
+    margin: 18px 0 18px 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.campus-list li {
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding-left: 28px;
+    color: #22304a;
+    transition: color 0.2s;
+}
+
+.campus-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(135deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 50%;
+    box-shadow: 0 2px 8px #bae6fd55;
+}
+
+.campus-list li:hover {
+    color: #2563eb;
+}
+
+.campus-highlight {
+    background: linear-gradient(90deg, #e0e7ef 60%, #f0f9ff 100%);
+    border-radius: 12px;
+    padding: 24px 18px;
+    margin: 32px 0 24px 0;
+    box-shadow: 0 2px 12px #bae6fd33;
+    text-align: center;
+}
+
+.campus-highlight-title {
+    font-size: 1.4rem;
+    color: #1d4ed8;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.campus-contact {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.campus-contact-btn {
+    margin-top: 10px;
+    background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px #bae6fd55;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.campus-contact-btn:hover {
+    background: linear-gradient(90deg, #1e40af 60%, #0ea5e9 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 600px) {
+    .campus-recruitment-page {
+        padding: 18px 8px;
+    }
+    .campus-title {
+        font-size: 2rem;
+    }
+    .campus-subtitle {
+        font-size: 1.1rem;
+    }
+    .campus-highlight {
+        padding: 14px 6px;
+    }
+}

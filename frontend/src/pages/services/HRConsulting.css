@@ -1,0 +1,142 @@
+.hr-consulting-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 72, 88, 0.12);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #22304a;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.hr-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1a365d;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 2px 8px #dbeafe;
+    animation: slideDown 0.7s;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.hr-subtitle {
+    font-size: 1.5rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.hr-section-title {
+    font-size: 1.2rem;
+    color: #0e2954;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.hr-section-title::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+.hr-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #374151;
+}
+
+.hr-services-list,
+.hr-why-list {
+    margin: 18px 0 18px 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.hr-services-list li,
+.hr-why-list li {
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding-left: 28px;
+    color: #22304a;
+    transition: color 0.2s;
+}
+
+.hr-services-list li::before,
+.hr-why-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(135deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 50%;
+    box-shadow: 0 2px 8px #bae6fd55;
+}
+
+.hr-services-list li:hover,
+.hr-why-list li:hover {
+    color: #2563eb;
+}
+
+.hr-highlight-box {
+    background: linear-gradient(100deg, #e0e7ef 60%, #f1f5f9 100%);
+    border-radius: 14px;
+    box-shadow: 0 4px 16px #bae6fd33;
+    padding: 28px 20px;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.hr-highlight-title {
+    font-size: 1.4rem;
+    color: #1a365d;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hr-highlight-description {
+    font-size: 1.05rem;
+    color: #374151;
+    margin-bottom: 12px;
+}
+
+.hr-highlight-contact {
+    font-size: 1.05rem;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .hr-consulting-page {
+        padding: 18px 8px;
+    }
+    .hr-title {
+        font-size: 2rem;
+    }
+    .hr-subtitle {
+        font-size: 1.1rem;
+    }
+}

@@ -38,6 +38,12 @@ import HireUs from "./pages/HireUs";
 import GlobalITRecruitment from "./pages/GlobalITRecruitment";
 import EmployeeTrainee from "./pages/EmployeeTrainee";
 import TalentAcquisition from "./pages/TalentAcquisition";
+import PermanentStaffing from "./pages/services/PermanentStaffing";
+import ContractStaffing from "./pages/services/ContractStaffing";
+import LeaderShipHiring from "./pages/services/LeaderShipHiring";
+import CampusRecruitment from "./pages/services/CampusRecruitment";
+import HRConsulting from "./pages/services/HRConsulting";
+
 
 
 
@@ -113,6 +119,14 @@ function App() {
       <Route path="/global-it-recruitment" element={<GlobalITRecruitment />} />
       <Route path="/employee-trainee" element={<EmployeeTrainee />} />
       <Route path="/talent-acquisition" element={< TalentAcquisition/>} />
+      
+      {/* Add more routes for other services here */}
+      <Route path="/services/permanent-staffing" element={<PermanentStaffing />} />
+      <Route path="/services/contract-staffing" element={<ContractStaffing />} />
+      <Route path="/services/leadership-hiring" element={<LeaderShipHiring />} />
+      <Route path="/services/campus-recruitment" element={<CampusRecruitment />} />
+      <Route path="/services/hr-consulting" element={<HRConsulting />} />
+      
 
         <Route path="*" element={<NotFound/>} />
       </Routes>

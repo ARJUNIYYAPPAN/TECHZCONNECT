@@ -17,6 +17,8 @@ import ClientTestimonial from "../components/ClientTestimonial";
 import IndustriesWeServe from "../components/IndustriesWeServe";
 import ClientsAndPartners from "../components/ClientsAndPartners";
 import QuickStats from "../components/QuickStats";
+import FAQSection from "../components/FAQSection";
+import FinalCTASection from "../components/FinalCTASection";
 
 
 function Home() {
@@ -86,10 +88,12 @@ function Home() {
         </div>
       </section>
 
-      <GoToTop/>
+      
 
       <NewsFilter/>
-
+      <FAQSection/>
+      <FinalCTASection/>
+      <GoToTop/>
       
 
 

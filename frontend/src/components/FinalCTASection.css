@@ -1,0 +1,47 @@
+.cta-section-Final {
+  background: #020024;  /* Gradient/dark theme */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-section-Final h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.cta-section-Final p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn {
+  background: #00c896;
+  color: white;
+}
+
+.apply-btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.apply-btn:hover,
+.contact-btn:hover {
+  transform: scale(1.05);
+}

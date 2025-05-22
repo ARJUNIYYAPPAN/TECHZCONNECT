@@ -1,0 +1,123 @@
+.leadership-hiring-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 72, 88, 0.12);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #22304a;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.leadership-hiring-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1a365d;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 2px 8px #dbeafe;
+    animation: slideDown 0.7s;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.leadership-hiring-container h2.leadership-hiring-title {
+    font-size: 1.5rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: none;
+    animation: none;
+}
+
+.leadership-hiring-container h3 {
+    font-size: 1.2rem;
+    color: #0e2954;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.leadership-hiring-container h3::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 2px;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leadership-hiring-description {
+    font-size: 1.15rem;
+    color: #374151;
+    margin-bottom: 32px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.leadership-hiring-container h2{
+    color: #007bff;
+}
+
+.leadership-hiring-list {
+    list-style: disc inside;
+    margin: 0 auto 32px auto;
+    max-width: 800px;
+    padding-left: 0;
+}
+
+.leadership-hiring-list li {
+    font-size: 1.05rem;
+    color: #333;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.leadership-hiring-image {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin: 32px auto 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px rgba(26,35,126,0.08);
+}
+
+@media (max-width: 600px) {
+    .leadership-hiring-container {
+        padding: 18px 8px;
+    }
+    .leadership-hiring-title {
+        font-size: 2rem;
+    }
+    .leadership-hiring-container h2.leadership-hiring-title {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .leadership-hiring-container {
+        padding: 20px 8px;
+    }
+    .leadership-hiring-title {
+        font-size: 2rem;
+    }
+    .leadership-hiring-description {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,111 @@
+.permanent-staffing-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 72, 88, 0.12);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #22304a;
+    animation: fadeIn 1s ease;
+}
+
+/* Remove the .permanent-staffing-page selector from the keyframes */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.permanent-staffing-page h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1a365d;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 2px 8px #dbeafe;
+    animation: slideDown 0.7s;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.permanent-staffing-page h2 {
+    font-size: 1.5rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.permanent-staffing-page h3 {
+    font-size: 1.2rem;
+    color: #0e2954;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.permanent-staffing-page h3::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+.permanent-staffing-page p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #374151;
+}
+
+.permanent-staffing-page ul {
+    margin: 18px 0 18px 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.permanent-staffing-page li {
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding-left: 28px;
+    color: #22304a;
+    transition: color 0.2s;
+}
+
+.permanent-staffing-page li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(135deg, #2563eb 60%, #38bdf8 100%);
+    border-radius: 50%;
+    box-shadow: 0 2px 8px #bae6fd55;
+}
+
+.permanent-staffing-page li:hover {
+    color: #2563eb;
+}
+
+@media (max-width: 600px) {
+    .permanent-staffing-page {
+        padding: 18px 8px;
+    }
+    .permanent-staffing-page h1 {
+        font-size: 2rem;
+    }
+    .permanent-staffing-page h2 {
+        font-size: 1.1rem;
+    }
+}
