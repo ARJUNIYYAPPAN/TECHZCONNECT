@@ -31,9 +31,10 @@ const GlobalITRecruitment = () => {
       image: australia,
     },
   ];
-
+  
   return (
-    <div className="global-it-recruitment">
+    
+    <div className="global-it-recruitment1">
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}

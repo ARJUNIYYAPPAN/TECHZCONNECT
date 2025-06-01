@@ -35,26 +35,7 @@
     color: #444;
 }
 
-/* .image-section {
-    flex: 1;
-    min-width: 300px;
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-} 
 
- .employee-trainee-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    object-fit: contain;
-    border-radius: 8px;
-} */
-
-/* Responsive */
 @media (max-width: 768px) {
     .employee-trainee-content {
         flex-direction: column;
@@ -63,5 +44,19 @@
 
     .text-section ul {
         padding-left: 1rem;
+    }
+
+    .image-section {
+        width: 100%;
+        margin: 1.5rem 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-section img {
+        max-width: 90vw;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
 }

@@ -39,12 +39,11 @@ import GlobalITRecruitment from "./pages/GlobalITRecruitment";
 import EmployeeTrainee from "./pages/EmployeeTrainee";
 import TalentAcquisition from "./pages/TalentAcquisition";
 import PermanentStaffing from "./pages/services/PermanentStaffing";
+import GlobaliTRecruitment from "./pages/services/GlobalITRecruitment";
 import ContractStaffing from "./pages/services/ContractStaffing";
 import LeaderShipHiring from "./pages/services/LeaderShipHiring";
 import CampusRecruitment from "./pages/services/CampusRecruitment";
 import HRConsulting from "./pages/services/HRConsulting";
-
-
 
 
 function App() {
@@ -123,6 +122,7 @@ function App() {
       {/* Add more routes for other services here */}
       <Route path="/services/permanent-staffing" element={<PermanentStaffing />} />
       <Route path="/services/contract-staffing" element={<ContractStaffing />} />
+      <Route path="/services/global-it-recruitment" element={<GlobaliTRecruitment />} />
       <Route path="/services/leadership-hiring" element={<LeaderShipHiring />} />
       <Route path="/services/campus-recruitment" element={<CampusRecruitment />} />
       <Route path="/services/hr-consulting" element={<HRConsulting />} />
