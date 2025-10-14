@@ -12,7 +12,7 @@ const adminUser = {
 // 🔹 Admin Login Route
 router.post("/auth/login", async (req, res) => {
     const { username, password } = req.body;  
-    const admin = await Admin.findOne({ username });
+    const admin = await adminUser.findOne({ username });
 
     if (!admin || !(await bcrypt.compare(password, admin.password))) {
         return res.status(401).json({ error: "Invalid credentials" });
