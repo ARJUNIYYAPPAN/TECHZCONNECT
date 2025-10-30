@@ -1,10 +1,10 @@
 import React from 'react';
 import './ClientsAndPartners.css';
-import nam1 from './logo/nam1.jpg';
+import techzit from './logo/techzit.jpg';
 
 
 const logos = [
-  '/logo/nam1.jpg',
+  '/logo/techzit.jpg',
   'Nam1',
   'Nam2',
   'Nam2', 
@@ -22,7 +22,7 @@ const ClientLogos = () => {
         <div className="logos-track">
           {logos.concat(logos).map((logo, index) => (
             <div className="logo-slide" key={index}>
-              <img src={nam1} alt={`Client ${index}`} />
+              <img src={techzit} alt={`Client ${index}`} />
             </div>
           ))}
         </div>

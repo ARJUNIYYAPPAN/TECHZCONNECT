@@ -49,10 +49,10 @@
 }
 
 .section-title {
-    font-size: 1.18rem;
+    /* font-size: 1.18rem; */
     font-weight: 600;
-    color: #0e2954;
-    margin-bottom: 12px;
+    /* color: #0e2954; */
+    /* margin-bottom: 12px; */
     position: relative;
 }
 
