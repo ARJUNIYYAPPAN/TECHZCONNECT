@@ -1,5 +1,5 @@
 .featured-jobs-section {
-  background-color: #f9f9f9;
+  background-color: #000000;
   padding: 60px 20px;
   text-align: center;
 }
@@ -7,7 +7,7 @@
 .featured-jobs-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #007bff;
+  color: #FF0000;
   margin-bottom: 40px;
 }
 
@@ -34,14 +34,14 @@
 
 .job-card p {
   margin: 6px 0;
-  color: #555;
+  color: #000000;
 }
 
 .apply-btn {
   display: inline-block;
   margin-top: 15px;
   padding: 8px 18px;
-  background-color: #007bff;
+  background-color: #FF0000;
   color: white;
   font-weight: 600;
   text-decoration: none;
@@ -59,12 +59,12 @@
 
 .view-all-btn a {
   text-decoration: none;
-  color: #007bff;
+  color: #FF0000;
   font-weight: bold;
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s;
 }
 
 .view-all-btn a:hover {
-  border-color: #007bff;
+  border-color: #FF0000;
 }

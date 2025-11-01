@@ -14,16 +14,16 @@
 }
 
 .job-card h3 {
-    color: #333;
+    color: #000000;
 }
 
 .job-card p {
-    color: #555;
+    color: #000000;
     line-height: 1.5;
 }
 
 .apply-button {
-    background-color: #007bff;
+    background-color: #FF0000;
     color: white;
     border: none;
     padding: 10px 20px;

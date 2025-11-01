@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(to bottom, #1c1e26, #222532);
+  background: #000000;
   color: #fff;
   padding: 20px;
   font-family: 'Poppins', sans-serif;
@@ -26,13 +26,13 @@
   margin-left: -100px;
   font-size: 30px;
   font-weight: bold;
-  color: #007bff;
+  color: #FF0000;
 }
 
 .menu-icon {
   display: none;
   font-size: 24px;
-  color: #007bff;
+  color: #FF0000;
   cursor: pointer;
   position: absolute;
   top: 1.5rem;
@@ -63,12 +63,12 @@
 
 .nav-link:hover,
 .dropdown-trigger:hover {
-  color: #007bff;
+  color: #FF0000;
 }
 
 .nav-link.active {
   color: #fff;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #FF0000;
 }
 
 .dropdown {
@@ -99,7 +99,7 @@
 
 .dropdown-title {
   font-weight: bold;
-  color: #007bff;
+  color: #FF0000;
   margin-bottom: 10px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .dropdown-section li a:hover {
-  color: #007bff;
+  color: #FF0000;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 2px 6px;
   border-radius: 4px;
@@ -156,7 +156,7 @@
 
   .dropdown-title {
     margin-top: 10px;
-    color: #007bff;
+    color: #FF0000;
     font-size: 15px;
   }
 

@@ -12,13 +12,13 @@
 
 .about-hero h1 {
   font-size: 2.8rem;
-  color: #007bff;
+  color: #FF0000;
   margin-bottom: 10px;
 }
 
 .about-hero p {
   font-size: 1.2rem;
-  color: #555;
+  color: #000000;
 }
 
 .about-section {
@@ -47,7 +47,7 @@
 
 .about-card p, .about-card ul {
   font-size: 1rem;
-  color: #333;
+  color: #000000;
 }
 
 .about-card ul {
@@ -66,7 +66,7 @@
 .why-techzconnect h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #007bff;
+  color: #FF0000;
 }
 
 .why-techzconnect p {

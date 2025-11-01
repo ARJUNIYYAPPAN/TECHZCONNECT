@@ -11,7 +11,7 @@
   .form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;  
     padding: 20px;
     gap: 20px;
   }
@@ -22,9 +22,9 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    background: #ECF1FD;
-    box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
-    border-radius: 5px;
+    /* background: #ECF1FD; */
+    /* box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5); */
+    /* border-radius: 5px; */
   }
   
   .note {
@@ -38,7 +38,7 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #2B2B2F;
+    color: #FF0000;
   }
   
   .subtitle {
@@ -46,7 +46,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 18px;
-    color: #5F5D6B;
+    color: #000000;
   }
   
   .input_field {
@@ -76,7 +76,10 @@
     gap: 10px;
     width: 100%;
     height: 42px;
-    background: linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%);
+    /* background: linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%);
+     */
+     background: linear-gradient(180deg, #FF6666 0%, #FF0000 50%, #CC0000 100%);
+
     box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
     border-radius: 5px;
     border: 0;

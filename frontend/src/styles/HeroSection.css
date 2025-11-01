@@ -66,23 +66,24 @@
 
 
 .hire-btn {
-  background-color: #4CAF50; 
+  background-color: #FF0000; 
   color: white;
 }
 
 .hire-btn:hover {
-  background-color: #45a049;
+  background-color: #FF0000;
   transform: scale(1.05);
   
 }
 
 .gethired-btn {
-  background-color: #007bff; 
+  background-color: #000000; 
   color: white;
+  border: 1px solid white 
 }
 
 .gethired-btn:hover {
-  background-color: #0b7dda;
+  background-color: #000000;
   transform: scale(1.05);
 } 
 
@@ -98,7 +99,7 @@
 
 .slider-progress {
   height: 100%;
-  background: #00c6ff; 
+  background: #CC0000; 
   transition: width 0.5s ease;
 }
 
@@ -145,7 +146,7 @@
 .slider-arrow svg {
   width: 30px;
   height: 30px;
-  color: #333;
+  /* color: #000000; */
 }
 
 /* Improve Dots Visibility */

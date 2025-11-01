@@ -7,7 +7,7 @@
   
   .notfound-container h1 {
     font-size: 100px;
-    color: #007bff;
+    color: #FF0000;
     margin-bottom: 10px;
   }
   
@@ -19,7 +19,7 @@
   
   .back-home {
     color: white;
-    background-color: #007bff;
+    background-color: #FF0000;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 6px;

@@ -17,7 +17,7 @@ const NewsFilter = () => {
         const latestNews = await fetchLatestNews(filter);
         setNews(latestNews || []);  // Fallback to empty array if undefined
       } catch (err) {
-        console.error("Error fetching news:", err);
+        console.log("Error fetching news:", err);
         setError('Failed to load news. Please try again later.');
         setNews([]);  // Empty array on error
       }

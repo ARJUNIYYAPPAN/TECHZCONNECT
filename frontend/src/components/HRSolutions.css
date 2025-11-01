@@ -7,7 +7,7 @@
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 50px;
-    color: #007bff;
+    color: #FF0000;
     text-align: center;
   }
   
@@ -73,14 +73,14 @@
 
 
   .solutions-section {
-    background-color: #f8f9fa;
+    background-color: #000000;
     padding: 80px 20px;
     text-align: center;
   }
   
   .solutions-title {
     font-size: 2.5rem;
-    color: #007BFF;
+    color: #FF0000;
     font-weight: 700;
     margin-bottom: 50px;
   }
@@ -125,13 +125,13 @@
   
   .solution-desc {
     font-size: 0.95rem;
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;
   }
   
   .solution-cta {
     font-size: 0.9rem;
-    color: #007BFF;
+    color: #FF0000;
     font-weight: 600;
   }
   

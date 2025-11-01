@@ -72,7 +72,7 @@
 }
 
 .leadership-hiring-container h2{
-    color: #007bff;
+    color: #FF0000;
 }
 
 .leadership-hiring-list {
@@ -84,7 +84,7 @@
 
 .leadership-hiring-list li {
     font-size: 1.05rem;
-    color: #333;
+    color: #000000;
     margin-bottom: 12px;
     line-height: 1.6;
 }

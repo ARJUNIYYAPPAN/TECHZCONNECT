@@ -1,6 +1,6 @@
 .services-section {
   padding: 80px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@
 .learn-more {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #0d6efd;
+  color: #FF0000;
   display: inline-block;
   margin-top: 10px;
   transition: all 0.3s ease;

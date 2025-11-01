@@ -1,6 +1,6 @@
 .industries-section {
     padding: 80px 20px;
-    background-color: #f9f9f9;
+    background-color: #000000;
     text-align: center;
   }
   
@@ -8,7 +8,7 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 50px;
-    color: #007BFF;
+    color: #FF0000;
   }
   
   .industries-grid {
@@ -39,6 +39,6 @@
   .industry-card h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #333;
+    color: #000000;
   }
   

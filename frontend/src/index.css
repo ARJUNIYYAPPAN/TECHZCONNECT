@@ -17,15 +17,15 @@ code {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f4f4f9;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #333;
+  color: #000000;
 }
 
 h3, h4 {
-  color: #333;
+  color: #000000;
 }
 
 input, select, button {

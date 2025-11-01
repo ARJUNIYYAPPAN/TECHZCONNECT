@@ -2,13 +2,13 @@
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: #f9f9f9;
-    color: #333;
+    color: #000000;
     line-height: 1.6;
 }
 
 .job-assistance h1 {
     font-size: 2.5rem;
-    color: #007bff;
+    color: #FF0000;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -26,7 +26,7 @@
 
 .job-assistance-content h2 {
     font-size: 1.8rem;
-    color: #007bff;
+    color: #FF0000;
     margin-bottom: 10px;
 }
 

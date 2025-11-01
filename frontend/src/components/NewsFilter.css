@@ -1,9 +1,9 @@
 
    .news-filter {
-    margin: 20px;
+    /* margin: 20px; */
     padding: 30px;
-    background: #f8f9fd;
-    border-radius: 10px;
+    background: #000000;
+    /* border-radius: 10px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
@@ -16,7 +16,7 @@
   
   .filter label {
     font-weight: bold;
-    color: #555;
+    color: #FFFFFF;
   }
   
   .filter select {
@@ -29,7 +29,7 @@
   }
   
   .filter select:hover {
-    border-color: #007bff;
+    border-color: #FF0000;
     box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
   }
 
@@ -51,6 +51,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: transform 0.3s;
+  }
+
+  .news-item a {
+    color: #FF0000;
+    text-decoration: none;
+    cursor: pointer;
   }
   
   .news-item:hover {

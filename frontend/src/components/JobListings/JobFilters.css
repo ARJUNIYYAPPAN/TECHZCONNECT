@@ -11,13 +11,13 @@
 
 .job-filters h3 {
     margin-bottom: 1rem;
-    color: #333;
+    color: #000000;
 }
 
 .job-filters label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #555;
+    color: #000000;
 }
 
 .job-filters input,

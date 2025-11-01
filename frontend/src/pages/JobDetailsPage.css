@@ -18,19 +18,19 @@
     text-align: left;
     margin-top: 20px;
     padding: 20px;
-    background: #f8f9fa;
+    background: #FF0000;
     border-radius: 8px;
   }
   
   .job-description h2,
   .job-requirements h2 {
-    color: #007bff;
+    color: #FF0000;
     margin-bottom: 10px;
   }
   
 
 h1 {
-    color: #007bff;
+    color: #FF0000;
     font-size: 28px;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .loading-message {
-    color: #555;
+    color: #000000;
     font-size: 18px;
     text-align: center;
     font-weight: bold;
@@ -77,7 +77,7 @@ p {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #007bff;
+    color: #FF0000;
     text-decoration: none;
     transition: color 0.2s ease;
   }

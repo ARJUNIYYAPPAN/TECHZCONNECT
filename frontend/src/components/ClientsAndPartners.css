@@ -1,6 +1,6 @@
 .client-logos-section {
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #000000;
   overflow: hidden;
   text-align: center;
 }
@@ -9,7 +9,7 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 40px;
-  color: #007bff;
+  color: #FF0000;
 }
 
 .logos-slider {

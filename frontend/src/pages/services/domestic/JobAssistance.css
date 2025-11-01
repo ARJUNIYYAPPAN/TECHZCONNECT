@@ -1,7 +1,7 @@
 .job-assistance {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #000000;
     padding: 20px;
     background-color: #f9f9f9;
 }
@@ -9,7 +9,7 @@
 .job-assistance__title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: #FF0000;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -18,7 +18,7 @@
     font-size: 1.2rem;
     margin-bottom: 30px;
     text-align: center;
-    color: #555;
+    color: #000000;
 }
 
 .job-assistance__section {
@@ -33,7 +33,7 @@
 .job-assistance__section-title {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #007bff;
+    color: #FF0000;
     margin-bottom: 15px;
 }
 
@@ -46,7 +46,7 @@
 .job-assistance__subsection-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: #FF0000;
     margin-top: 20px;
     margin-bottom: 10px;
 }

@@ -18,7 +18,7 @@ import IndustriesWeServe from "../components/IndustriesWeServe";
 import ClientsAndPartners from "../components/ClientsAndPartners";
 import QuickStats from "../components/QuickStats";
 import FAQSection from "../components/FAQSection";
-import FinalCTASection from "../components/FinalCTASection";
+// import FinalCTASection from "../components/FinalCTASection";
 
 
 function Home() {
@@ -92,7 +92,7 @@ function Home() {
 
       <NewsFilter/>
       <FAQSection/>
-      <FinalCTASection/>
+      {/* <FinalCTASection/> */}
       <GoToTop/>
       
 

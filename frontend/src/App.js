@@ -21,7 +21,7 @@ import ManageJobs from "./pages/admin/ManageJobs";
 import ManageSlider from "./pages/admin/ManageSlider";
 import ManageMenu from "./pages/admin/ManageMenu";
 import PrivateRoute from "./components/PrivateRoute";
-import CTASection from "./components/CTASection";
+// import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import DomesticLetsGetStarted from "./pages/services/domestic/LetsGetStarted";
@@ -131,7 +131,7 @@ function App() {
         <Route path="*" element={<NotFound/>} />
       </Routes>
       </main>
-      <CTASection />
+      {/* <CTASection /> */}
       <Footer />
       </div>
     </Router>

@@ -11,12 +11,12 @@
 }
 
 h1 {
-  color: #007bff;
+  color: #FF0000;
   font-size: 26px;
 }
 
 p {
-  color: #555;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -37,7 +37,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #007bff;
+  border-color: #FF0000;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
 }
 

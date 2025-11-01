@@ -11,7 +11,7 @@
   .button {
     --border-right: -5px;
     --text-stroke-color: #fff;
-    --animation-color: #007bff;
+    --animation-color: #FF0000;
     /* --fs-size: 2em; */
     letter-spacing: 2px;
     text-decoration: none;
@@ -44,7 +44,7 @@
   @media screen and (max-width: 768px) {
 
     .button{
-     --text-stroke-color: #007bff;
+     --text-stroke-color: #FF0000;
     }
    
     

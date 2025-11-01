@@ -2,7 +2,7 @@
     padding: 20px;
     background-color: #f9f9f9;
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -34,14 +34,14 @@
 .verification-paragraph {
     font-size: 1rem;
     margin-bottom: 15px;
-    color: #555;
+    color: #000000;
 }
 
 .verification-list {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 20px;
-    color: #555;
+    color: #000000;
 }
 
 .verification-list li {

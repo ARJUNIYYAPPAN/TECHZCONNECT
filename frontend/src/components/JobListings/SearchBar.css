@@ -16,11 +16,11 @@
 
 .search-bar button {
     padding: 0.5rem 1rem;
-    background: #007bff;
+    background: #FF0000;
     color: #fff;
     border-radius: 0 4px 4px 0;
 }
 
 .search-bar button:hover {
-    background: #0056b3;
+    background: #FF6666;
 }

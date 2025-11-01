@@ -24,18 +24,18 @@
 
 .carousel-slide p {
     font-style: italic;
-    color: #555;
+    color: #000000;
 }
 
 .carousel-slide h4 {
     margin-top: 10px;
-    color: #333;
+    color: #000000;
 }
 .carousel h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
-    color: #007bff;
+    color: #FF0000;
     font-weight: bold;
     text-transform: uppercase;
 }

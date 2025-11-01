@@ -1,6 +1,6 @@
 .recruitment-process-section {
   padding: 60px 20px;
-  background-color: #f8f9fc;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .section-title .highlight {
-  color: #007bff;
+  color: #FF0000;
 }
 
 .steps-container {
@@ -37,7 +37,7 @@
 
 .step-card .icon {
   font-size: 40px;
-  color: #007bff;
+  color: #FF0000;
   margin-bottom: 16px;
 }
 
@@ -49,7 +49,7 @@
 
 .step-card p {
   font-size: 14px;
-  color: #555;
+  color: #000000;
   line-height: 1.5;
 }
 
