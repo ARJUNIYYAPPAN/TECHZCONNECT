@@ -30,12 +30,12 @@
   
   .filter select:hover {
     border-color: #FF0000;
-    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+    /* box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2); */
   }
 
   .filter select:focus {
     outline: none;
-    border-color: #0056b3;
+    border-color: #FF6666;
   }
   
   .news-list {

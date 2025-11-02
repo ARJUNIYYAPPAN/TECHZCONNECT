@@ -27,7 +27,7 @@ const JobAssistance = () => {
                 <p className="job-assistance__text">
                     This course aims at preparing learners for their upcoming job interviews. Comprehensive coverage of topics for all pre-interviews, at the interview & post-interview stages.
                 </p>
-                <h3 className="job-assistance__subsection-title">Job Search Assistance</h3>
+                <h3 className="job-assistance__section-title">Job Search Assistance</h3>
                 <p className="job-assistance__text">
                     Save a lot of time applying for vacancies and it becomes easier for consultants to reach you. Our team of experienced professionals who come from HR/Recruitment background works as your Relationship Manager. Job Search Assistant where we go the extra mile for candidates. This service will provide you the personal Relationship Manager, who will help you at every step of your job seeking – right from job search, profile optimization to company research. Job Search Management is equipped to efficiently manage your job hunt so that you reach your career goals effortlessly.
                 </p>

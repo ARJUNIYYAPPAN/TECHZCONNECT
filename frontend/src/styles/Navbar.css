@@ -1,6 +1,6 @@
 .navbar {
   background: #000000;
-  color: #fff;
+  color: #FFFFFF;
   padding: 20px;
   font-family: 'Poppins', sans-serif;
   position: sticky;
@@ -79,7 +79,7 @@
   position: absolute;
   top: 100%;
   right: 0;
-  background: #222532;
+  background: #000000;
   display: flex;
   gap: 40px;
   padding: 20px 30px;
@@ -130,7 +130,7 @@
     top: 60px;
     left: 0;
     width: 100%;
-    background: #222532;
+    background: #000000;
     padding: 20px 10px;
     transform: translateY(-200%);
     transition: transform 0.4s ease;

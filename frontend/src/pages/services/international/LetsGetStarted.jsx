@@ -1,5 +1,5 @@
 import React from 'react';
-import './LetsGetStarted.css'; 
+import '../domestic/LetsGetStarted.css'; 
 import { motion } from 'framer-motion';
 
 const LetsGetStarted = () => {
@@ -20,7 +20,7 @@ const LetsGetStarted = () => {
             <p>We help you significantly increase the amount of quality applications you get to your jobs.</p>
             <p>Not only this, a minimum of 3 specialized job openings within 3 months matching your profile and lots more..</p>
             <div className="benefits-section">
-            <h3>THE BENEFITS OF PAID REGISTRATION</h3>
+            <h2>THE BENEFITS OF PAID REGISTRATION</h2>
             <ul>
                 <li>Upload your resume, if not done already</li>
                 <li>Provide Life Long Notifications keep your resume and profile updated, always</li>

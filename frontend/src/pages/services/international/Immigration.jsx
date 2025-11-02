@@ -88,7 +88,7 @@ const ImmigrationAssessment = () => {
       {/* Step-by-Step Process */}
       <section className="process-section">
         <h2>Step-by-Step Process</h2>
-        <ol>
+        <ol className="assessment-list">
           <li>Submit Your Profile</li>
           <li>Eligibility Check</li>
           <li>Document Verification</li>
