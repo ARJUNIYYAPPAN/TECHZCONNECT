@@ -1,8 +1,9 @@
 .verification-container {
     padding: 20px;
     font-family: Arial, sans-serif;
-    color: #000000;
+    color: #FFFFFF;
     line-height: 1.6;
+    background-color: #000000;
 }
 
 .verification-title {
@@ -17,7 +18,7 @@
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 30px;
-    color: #7f8c8d;
+    color: #ffffff;
 }
 
 .verification-intro {
@@ -42,7 +43,7 @@
 .verification-text {
     font-size: 1rem;
     margin-bottom: 15px;
-    color: #2c3e50;
+    color: #FFFFFF;
 }
 
 .verification-list {
@@ -54,6 +55,6 @@
 .verification-list-item {
     font-size: 1rem;
     margin-bottom: 10px;
-    color: #34495e;
+    color: #FFFFFF;
 }
 

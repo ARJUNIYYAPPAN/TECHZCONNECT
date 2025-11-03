@@ -37,12 +37,12 @@
   .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45); /* Dark semi-transparent overlay */
+    background: rgba(0, 0, 0, 0.15); /* Dark semi-transparent overlay */
     transition: transform 0.3s ease;
   }
 
   .country-card-bg:hover .overlay {
-    background: rgba(0, 0, 0, 0.65); /* Darker overlay on hover */
+    background: rgba(0, 0, 0, 0.45); /* Darker overlay on hover */
   }
   
   .country-content {

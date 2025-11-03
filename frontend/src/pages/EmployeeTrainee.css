@@ -1,6 +1,6 @@
 .employee-trainee-container {
     padding: 4rem 2rem;
-    background-color: #f9f9f9;
+    background-color: #000000;
 }
 
 .employee-trainee-content {
@@ -32,7 +32,7 @@
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
     line-height: 1.5;
-    color: #444;
+    color: #FFFFFF;
 }
 
 
